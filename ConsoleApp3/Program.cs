@@ -16,7 +16,7 @@ namespace ConsoleApp3
             string userAge = Console.ReadLine();
             Console.WriteLine("What is yor favorite pet?");
             string userPet = Console.ReadLine(); 
-            Console.WriteLine("Your name is " + userName + ", you are " + userAge + " years old, " + userPet + "is your fovorite pet.");
+            Console.WriteLine("Your name is " + userName + ", you are " + userAge + " years old, " + userPet + " is your fovorite pet.");
         }
     }
 }
