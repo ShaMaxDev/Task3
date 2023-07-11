@@ -10,7 +10,13 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine();
+            Console.WriteLine("What is your name?");
+            string userName = Console.ReadLine();
+            Console.WriteLine("How old are you?");
+            string userAge = Console.ReadLine();
+            Console.WriteLine("What is yor favorite pet?");
+            string userPet = Console.ReadLine(); 
+            Console.WriteLine("Your name is " + userName + ", you are " + userAge + " years old, " + userPet + "is your fovorite pet.");
         }
     }
 }
